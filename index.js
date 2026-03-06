@@ -9,5 +9,5 @@ app.get("/:nome/:idade",(req,rest) => {
 });
 
 app.listen(3019, () => {
-  console.log("Gabriel o servidor está ligado");
+  console.log("Gabriel o servidor está ligado na porta ( 3019 ).");
 });
